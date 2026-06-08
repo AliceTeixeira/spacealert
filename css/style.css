@@ -379,13 +379,13 @@ form {
 }
 
 footer {
-    background-color: #0a3557;
-    color: white;
+    background-color: #4b0081;
+    color: #e0e0e0;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    border-top: 1px solid #6a1b9a;
 }
-
 /* RESPONSIVO - MOBILE */
 @media (max-width: 768px) {
     .menu-hamburguer {
