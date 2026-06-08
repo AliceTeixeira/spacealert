@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceAlert - Mapa de Risco</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>🚀 SpaceAlert</h1>
+        </div>
+        <nav>
+            <div class="menu-hamburguer" id="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="risco.html">Mapa de Risco</a></li>
+                <li><a href="alertas.html">Alertas</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="container">
+        <h1>Mapa de Risco</h1>
+        <p>Aqui mostra as regiões que estão em alerta hoje. Atualizado todo dia.</p>
+
+        <div class="mapa-simulado">
+            <h3>Legenda:</h3>
+            <div class="legenda">
+                <span class="risco-alto">🔴 Alto Risco</span>
+                <span class="risco-medio">🟡 Médio Risco</span>
+                <span class="risco-baixo">🟢 Baixo Risco</span>
+            </div>
+
+            <div class="mapa-grid">
+                <div class="regiao risco-alto">
+                    <strong>Serra do Mar - Sao Paulo</strong>
+                    <p>Risco de deslizamento</p>
+                </div>
+                <div class="regiao risco-alto">
+                    <strong>Vale do Itajaí - SC</strong>
+                    <p>Risco de enchente</p>
+                </div>
+                <div class="regiao risco-medio">
+                    <strong>Baixada Fluminense - RJ</strong>
+                    <p>Alerta de alagamento</p>
+                </div>
+                <div class="regiao risco-medio">
+                    <strong>Amazônia - RO</strong>
+                    <p>Risco de queimada</p>
+                </div>
+                <div class="regiao risco-baixo">
+                    <strong>Região Sul - RS</strong>
+                    <p>Monitoramento normal</p>
+                </div>
+                <div class="regiao risco-baixo">
+                    <strong>Centro-Oeste - MT</strong>
+                    <p>Monitoramento normal</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="simularAlerta" class="btn">Simular Alerta (teste)</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SpaceAlert - Protegendo vidas com tecnologia espacial</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

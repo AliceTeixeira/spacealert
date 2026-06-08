@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceAlert - Alerta de Desastres</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+
+
+    <header>
+        <div class="logo">
+            <h1>🚀 SpaceAlert</h1>
+        </div>
+        <nav>
+
+            <div class="menu-hamburguer" id="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="risco.html">Mapa de Risco</a></li>
+                <li><a href="alertas.html">Alertas</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Alertas de Desastres Naturais</h1>
+            <p>Monitoramento via satélite para salvar vidas e proteger comunidades</p>
+            <a href="risco.html" class="btn">Ver Mapa de Risco</a>
+        </section>
+
+        <section class="cards">
+            <h2>Como funciona?</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>🛰️ Dados de Satélite</h3>
+                    <p>Usamos imagens de satélite da NASA e ESA pra monitorar o clima e o solo.</p>
+                </div>
+                <div class="card">
+                    <h3>⚠️ Análise de Risco</h3>
+                    <p>Um sistema simples identifica areas com risco de enchente, deslizamento e queimada.</p>
+                </div>
+                <div class="card">
+                    <h3>📢 Alertas Precoces</h3>
+                    <p>As comunidades recebem alerta com antecedencia pra poder sair da area de risco.</p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="slider-section">
+            <h2>Satélites em Ação</h2>
+            <div class="slider-container">
+                <button class="slider-btn prev" id="prevBtn">❮</button>
+                <div class="slider">
+                    <img src="assets/imagens/satelite1.jpg" alt="Satelite monitorando a Terra" class="slide active">
+                    <img src="assets/imagens/satelite2.jpg" alt="Imagem do satelite mostrando desmatamento" class="slide">
+                    <img src="assets/imagens/alerta.jpg" alt="Alerta de desastre na tela" class="slide">
+                </div>
+                <button class="slider-btn next" id="nextBtn">❯</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SpaceAlert - Protegendo vidas com tecnologia espacial</p>
+        <p>ODS: 9, 11, 13</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
