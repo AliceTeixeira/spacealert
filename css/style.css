@@ -12,15 +12,15 @@ body {
 }
 
 header {
-    background-color: #0a3557;
+    background-color: #0a1c2e;  
     color: white;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 2px solid #ff8c00;
 }
-
 .logo h1 {
     font-size: 1.5rem;
 }
